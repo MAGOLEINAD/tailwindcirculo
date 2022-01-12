@@ -1,8 +1,9 @@
 import Header from "./components/Header"
 import MenuCirculo from "./components/Menu"
 import Servicios from "./components/Servicios"
-import Principal from "./components/Principal"
 import Ilusionismo from "./components/Ilusionismo"
+import TresCajasGrid from "./components/TresCajasGrid"
+
 
 
 
@@ -13,8 +14,8 @@ function App() {
     <MenuCirculo />
     <Header />
     <Servicios />
-    <Principal />
     <Ilusionismo />
+    <TresCajasGrid />
     </>
   )
 }

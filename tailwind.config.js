@@ -10,7 +10,7 @@ module.exports = {
 
     extend: {
       backgroundImage: {
-        'cartas': "url('/img/slides/cartas.jpg')",
+        'cubiletes': "url('/img/blocks_background.jpg')",
       }
     },
     plugins: [
