@@ -1,3 +1,132 @@
+/** fomnt google **/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Waterfall&display=swap');
+/** fomnt google  end**/
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/*** variables **/
+
+:root{
+    --color-red: #eb3449;
+}
+
+
+
+/** style div */
+body{
+    background-color:  #0b0b0a !important;
+    font-family: 'Lato', sans-serif;
+
+}
+.header{
+    background: url('/img/slides/cartas2.png') no-repeat  center  ;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+
+
+}
+.serv{
+    margin: 75px auto;
+}
+.serv i{
+    color: var(--color-red);
+    margin-bottom: 15px;
+    font-size: 2em;
+
+}
+
+.degradate{
+    font-weight: 900;
+    color: white;
+    font-size: 5em;
+    line-height: 0.5;
+    padding-bottom: 1em;
+    
+}
+.subti{
+    
+    font-size: .4em;
+    font-weight: 100;
+    letter-spacing: 0.24em;
+    color: var(--color-red);
+}
+.uppercase{
+    font-weight: 900;
+}
+.bg-whaitebox{
+    background: url(../img/header1.png) no-repeat right center #18181a;
+    background-size: contain;
+    padding: 15px 60px;
+}
+@media screen and (max-width: 1279px) {
+    .bg-whaitebox{
+        background-image: url('../img/header1-m.png');
+  
+    }
+}
+@media screen and (max-width: 1023px) {
+   
+    .bg-whaitebox{
+        text-align: center;
+        background: url('../img/headtop.png') center center no-repeat  #18181a;
+        background-position: 0 -50px ;
+      
+        padding-top: 400px ;
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 746px) {
+    .bg-whaitebox{
+        padding-top: 370px;
+    }
+    .degradate{
+        font-size: 4em;
+    }
+    .subti{
+    
+        font-size: .4em;
+        letter-spacing: 0.095em;
+    }
+    .serv{
+        margin: 10px auto 45px auto ;
+    }
+    .serv i{
+        margin: 20px;
+    }
+    
+}
+@media screen and (max-width: 574px) {
+    .bg-whaitebox{
+        padding: 300px 5px 5px 5px;
+    }
+    .degradate{
+        font-size: 3.5em;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .bg-whaitebox{
+        background-position: 0 -20px ;
+        padding-top: 240px;
+    }
+    .degradate{
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .bg-whaitebox{
+        padding-top: 150px;
+
+    }
+    .degradate{
+        font-size: 2em;
+    }
+}
