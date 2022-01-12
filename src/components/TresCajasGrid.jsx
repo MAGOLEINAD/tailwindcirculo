@@ -1,7 +1,7 @@
 
 const TresCajasGrid = () => {
     return (
-        <div className="sm:hidden">
+        <div className="2xl:hidden">
                 <div className="container py-10 bg-[url('/img/blocks_background.jpg')] gap-40 bg-center text-center grid grid-cols-3 divide-x border-2 border-cyan-400">
             
             <div className="order-1 outline-2 bg-white py-10 ml-12 rounded-sm">
